@@ -6,4 +6,5 @@ virtualenv .venv
 pip install -r requirements.txt
 
 ##running
-FLASK_APP=service flask run
+. run.sh  
+the service is available on http://localhost:8001
